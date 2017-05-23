@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the frontpage variables feature.
+ */
+
+include_once 'frontpage_variables.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the bundle settings feature.
+ */
+
+include_once 'bundle_settings.features.inc';

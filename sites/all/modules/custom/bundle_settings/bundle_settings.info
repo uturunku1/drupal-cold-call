@@ -1,0 +1,11 @@
+name = bundle settings
+description = bundle settings for call content, staff (contact) and company (org) redhen types 
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = field_bundle_settings_node__call
+features[variable][] = field_bundle_settings_redhen_contact__staff
+features[variable][] = field_bundle_settings_redhen_org__company
