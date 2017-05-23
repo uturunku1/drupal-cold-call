@@ -1,0 +1,20 @@
+/**
+ * Place your custom styles here.
+ */
+ body{
+   background-color: lightblue;
+ }
+ /*.main-container.container{
+   background-color: red;
+ }
+ h1.page-header{
+   background-color: red;
+ }*/
+a.name.navbar-brand{
+  font-size: 25px;
+  color: orange;
+  font-family: fantasy;
+}
+/*h1#the_logo{
+  background-color: pink;
+}*/

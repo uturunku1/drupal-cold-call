@@ -1,0 +1,17 @@
+<?php
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function customredhen_form_alter(&$form, $form_state, $form_id) {
+  $form_state['build_info']['files']['form'] = drupal_get_path('module', 'redhen_contact') . '/includes/redhen_contact.forms.inc';
+  if($form_id=='redhen_contact_contact_form'){
+
+    $form['name']['last_name']['#required'] = FALSE;
+    $form['name']['middle_name']['#access'] = FALSE;
+    // $form['name']['last_name'] = null;
+  }
+  // print '<pre>';
+  // print_r($form);
+  // print '</pre>';
+  // exit;
+}

@@ -1,0 +1,6 @@
+name = Custom redhen
+description = custom module for my redhen contrib module
+package = custom
+core = 7.x
+files[]= customredhen.module
+stylesheets[all][] = styles.css
